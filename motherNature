@@ -1,0 +1,27 @@
+
+/*
+San Francisco vs. Mother Nature
+Version 0.1
+Author: @dannytamez
+*/
+
+import UIKit
+
+enum motherNature {
+    case rain, wind, snow, hail, fire, fog, earthquake
+}
+
+func response(sanFrancisco: motherNature) -> String {
+    switch sanFrancisco {
+    case .wind, .snow, .hail, .fire, .fog, .earthquake:
+        return "#dontpanic"
+    case .rain:
+        return "#shitpants"
+    default:
+        return "#smug"
+    }
+}
+
+var today = motherNature.rain
+
+response(motherNature.rain)
