@@ -1,4 +1,4 @@
-Playground
+Swift Programming Playground
 ==========
 
-Swift Programming Playground
+A quick practice in wiriting enums in Swift. 
